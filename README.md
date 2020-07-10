@@ -15,7 +15,7 @@ Java: https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
 Github Desktop: https://desktop.github.com/ (makes Git a lot easier)
 Collaborating on Github: https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67 (Start on Step 3)
 
-### Running the Application
+## Running the Application
 
 cd into my-app in the project direcotry and use:
 
