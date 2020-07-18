@@ -17,8 +17,10 @@ Collaborating on Github: https://medium.com/@jonathanmines/the-ultimate-github-c
 
 ## Running the Application
 
-cd into my-app in the project direcotry and use:
-
+cd into my-app in the project directory and use:
+* To install dependencies  
+npm install 
+* To run the application
 npm start 
 
 .. or see live changes if you're using VS Code.
