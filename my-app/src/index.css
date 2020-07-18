@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,123 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+blockquote{
+  color:blue;
+}
+.Title_b{
+  text-align: center;
+  font-family: 'Sora', sans-serif,'Quicksand', sans-serif,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-size: 10px;
+}
+
+.Text {
+  text-align: center;
+  font-family: Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-size: 30px;
+}
+.Form-font {
+  color: black;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 12px;
+}
+.welcome {
+  background-image: url("therapist.jpg");
+  padding: 125px;
+  background-size: cover;
+  opacity: 0.8;
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.welcome-text {
+  margin: 5%;
+  font-weight: bold;
+  font-family:'Quicksand', sans-serif, "futura-pt";
+  font-size: 36px;
+  font-weight: 400;
+  color: #1A5276;
+  padding-bottom: 300px;
+  padding-left: 25px;
+
+
+
+
+}
+.submit {
+  height: 20px;
+  width: 100px;
+  margin: -20px -50px;
+  padding: 15px;
+  text-align: center;
+  line-height: 0px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  border-radius: 50px;
+  justify-content: space-around;
+  font-size: 15px;
+
+}
+#texto{
+  color: #1c2e4a;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.homepage-link {
+  font-family: Georgia;
+}
+
+.Link {
+  color: black;
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 23px;
+  font-weight: bold;
+  text-decoration: none;
+}
+a {
+  color: hotpink;
+}
+a:hover {
+  opacity: 0.5;
+  background-color: gray;
+  text-decoration: none;
+  color: black;
+}
+.Site-name {
+  text-align: left;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+header {
+  height: 70px;
+  background-color: #74EBD5;
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+  width: 100%;
+}
+/*ReactWidgetsForm*/
+.dow{
+  width: 1000px;
+  border-radius: 15px;
+
+  background-color: #31b89c;
+
+}
+.eldoc{
+  width: 250px;
+  align-self: center;
+  border-radius: 15px;
+  background-color: #31b89c;
+
+
 }
