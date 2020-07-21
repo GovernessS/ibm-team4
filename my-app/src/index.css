@@ -132,6 +132,22 @@ header {
   align-self: center;
   border-radius: 15px;
   background-color: #31b89c;
+  float: left;
 
+}
 
+.consul{
+  width: 250px;
+  align-self: center;
+  border-radius: 15px;
+  background-color: #31b89c;
+  overflow: hidden;/* Makes this div contain its floats */
+  float: right;
+  display: block;
+
+}
+
+.eldoc,
+.consul {
+    width: 49%;
 }
