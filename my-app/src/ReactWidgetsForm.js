@@ -18,15 +18,7 @@ let ReactWidgetsForm = props => {
   return (
     <form onSubmit={handleSubmit}>
     <center>
-      <div className="dow">
-        <label>Which day would you prefer your appointment?</label>
-        <Field
-          name="daysOfTheWeek"
-          component={DropdownList}
-          data={help}
-          valueField="value"
-          textField="color"/>
-      </div>
+
 
       <div className="dow">
         <label>What help would you like today?</label>
@@ -37,6 +29,7 @@ let ReactWidgetsForm = props => {
           onBlur={() => props.onBlur()}
           data={[ 'Anxiety', 'Depression', 'Anger Management' ]}/>
       </div>
+      
       <div className="eldoc">
         <label>Doctor preference</label>
         <Field
@@ -45,6 +38,19 @@ let ReactWidgetsForm = props => {
           onBlur={() => props.onBlur()}
           data={[ 'male', 'female' ]}/>
       </div>
+
+      <div className="eldoc">
+        <label>Consultation type</label>
+        <Field
+          name="onlineInperson"
+          component={SelectList}
+          onBlur={() => props.onBlur()}
+          data = {['Online', 'In-person']}/>
+      </div>
+
+
+
+
       </center>
       <div>
         <button type="submit" disabled={pristine || submitting}>Submit</button>
