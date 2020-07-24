@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+}
+
+.Text {
+  text-align: center;
+  font-family: Geneva;
+}
+
+.us {
+  text-align: justify;
+  font-family: Geneva;
+  margin-top: 4rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  font-size: 40px;
+  font-weight: Bold;
+}
+.about {
+  text-align: justify;
+  font-family: Geneva;
+  margin-top: 4rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  font-size: 20px;
+}
+.Form-font {
+  color: maroon;
+  float: left;
+  text-align: center;
+  display: block;
+  padding: 15px;
+}
+.welcome {
+  background-image: url("therapist.jpg");
+  padding: 125px;
+  background-size: cover;
+  opacity: 0.5;
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.welcome-text {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+.submit {
+  height: 20px;
+  width: 100px;
+  margin: -20px -50px;
+  padding: 15px;
+  text-align: center;
+  line-height: 0px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+
+.homepage-link {
+  font-family: Georgia;
+}
+
+.Link {
+  color: black;
+  float: right;
+  text-align: center;
+  padding: 23px;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.5;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+.Site-name {
+  text-align: left;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+header {
+  margin-top: -15px;
+  height: 60px;
+  background-color: lightcoral;
+  width: 100%;
+}
