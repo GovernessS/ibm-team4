@@ -14,20 +14,10 @@ import { Provider } from 'react-redux';
 import { reducer as formReducer } from 'redux-form';
 
 
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-ReactDOM.render(
-  <h1>Black Mental Health</h1>,
-  document.getElementById('root')
-);
-
-class QuoteMaker extends React.Component {
+class Index extends React.Component {
   render() {
     return (
 
@@ -35,10 +25,11 @@ class QuoteMaker extends React.Component {
       <title>Black Mental Health</title>
       <header className="Title_b">
         <h1 className="Form-font Site-name"> Black Mental Health</h1>
-        <a className="Link" href="contact.html">
+        <a className="Link" href="contact.js">
           Contact Us
         </a>
-        <a className="Link" href="about.html">
+
+        <a className="Link" href="about.js">
           About
         </a>
       </header>
@@ -54,42 +45,35 @@ class QuoteMaker extends React.Component {
 
         </div>
       </div>
+
       <div className="Text">
         <p>
-
-            <div>
+          <div>
             <ReactWidgetsForm />
-
-
-
-            </div>
+          </div>
         </p>
       </div>
-      <p className="Text">
-        Please enter your name here:
-        <br />
-       <input type="form" />
-      </p>
-      <button className="submit" type="submit">
-        Submit
-      </button>
     </div>
     );
   }
 };
+export default Index;
 
 const rootReducer = combineReducers({
   form: formReducer,
 });
 
 const store = createStore(rootReducer);
+
+
 ReactDOM.render(
   <Provider store={store}>
-    <QuoteMaker />
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
   </Provider>,
   document.getElementById('root')
 );
-
 
 
 

@@ -1,25 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+@import 'https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
 
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
-blockquote{
-  color:blue;
-}
+
+
 .Title_b{
   text-align: center;
   font-family: 'Sora', sans-serif,'Quicksand', sans-serif,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
@@ -120,26 +108,54 @@ header {
   width: 100%;
 }
 /*ReactWidgetsForm*/
-.dow{
-  width: 1000px;
-  border-radius: 15px;
+.Textd{
+width: 1000px;
+border-radius: 15px;
+background-color: #31b89c;
+background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.dow {
+  width: 900px;
+  border-radius: 20px;
 
-  background-color: #31b89c;
+
+  background: #7F7FD5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+
 .eldoc{
   width: 250px;
   align-self: center;
   border-radius: 15px;
-  background-color: #31b89c;
+
   float: left;
 
+    margin-top: 4px;
+
+    margin-bottom: 4px;
+    padding: 0.4rem;
+    border-width: 1.5px;
+    border-style: solid;
+    border-bottom: red;
+    border-width: 7px;
+    border-color:  #7F7FD5;
+
+    /*background: #7F7FD5;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+  /*  background: linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .consul{
   width: 250px;
   align-self: center;
   border-radius: 15px;
+  border-width: thick;
+  border-bottom: 15px,  #31b89c;
   background-color: #31b89c;
   overflow: hidden;/* Makes this div contain its floats */
   float: right;
@@ -149,5 +165,109 @@ header {
 
 .eldoc,
 .consul {
-    width: 49%;
+    width: 47%;
+}
+
+
+
+/*Contact*/
+.Text {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.Form-font {
+  color: #0014a8;
+}
+
+.Link {
+  color: #0014a8;
+}
+
+/*About Us */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*About us*/
+.aboutBody{
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/*button*/
+
+.ContactButton{
+	background: transparent;
+	display: flex;
+	height: 44px;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: green;
+	padding: 20px;
+	box-sizing: border-box;
+	border: 2px solid rgba(grey, .2);
+	border-radius: 44px;
+	font-size: 14px;
+	font-weight: 600;
+	transition: border .125s ease, background .125s ease;
+
+	&:hover {
+		border: 2px solid grey;
+	}
+
+	&[data-primary='true'] {
+		border: 2px solid blue;
+
+		&:hover {
+			background: green;
+		}
+	}
+}
+
+
+
+
+#HelpToday{
+  background: pink;
+  border-color: red;
 }
