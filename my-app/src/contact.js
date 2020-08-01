@@ -5,11 +5,11 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <title>Black Mental Health</title>
+        <title>Black Help</title>
         <header className="Text">
           <h2>
             <a className="Form-font Site-name" href="index.js">
-              Black Mental Health
+              Black Help
             </a>
           </h2>
           <a className="Link" href="contact.js">
@@ -22,32 +22,30 @@ class Contact extends Component {
         <body>
           <br />
           <div>
-            <p className="us">Contact Us!</p>
+            <h2 className="us"> Contact Us!</h2>
             <br />
-            <p className="about">
-              Your Name:
+            <p className="contactBody">
+              Your Name*:
               <br />
-              <input type="name"></input>
+              <input className="name" type="name"></input>
             </p>
-            <p className="about">
-              Email (optional):
+            <p className="contactBody">
+              Email* :
               <br />
-              <input type="message"></input>
+              <input className="name" type="email"></input>
             </p>
-            <p className="about">
+            <p className="contactBody">
               Please Enter Your Message Here:
               <br />
               <textarea type="message"></textarea>
             </p>
-
           </div>
-
           <div>
-          <center>
-          <button className="ContactButton" type="submit">
-            Send
-          </button>
-          </center>
+            <center>
+              <button className="ContactButton" type="submit">
+                Send
+              </button>
+            </center>
           </div>
         </body>
       </div>

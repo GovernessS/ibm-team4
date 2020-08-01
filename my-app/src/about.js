@@ -5,11 +5,11 @@ class About extends Component {
   render() {
     return (
       <div>
-        <title>Black Mental Health</title>
+        <title>Black Help</title>
         <header className="Text">
           <h2>
             <a className="Form-font Site-name" href="index.js">
-              Black Mental Health
+              Black Help
             </a>
           </h2>
           <a className="Link" href="contact.js">
@@ -25,12 +25,14 @@ class About extends Component {
             <h2 className="us">About Us</h2>
 
             <p className="aboutBody">
-              Thanks for visiting Black Mental Health! We are a group of
-              programmers tasked to create a project to improve the well-being
-              of Black folx in the current, fragile climate. Our team is
-              dedicated to destigmatizing mental health treatment within the
-              Black community. Our hope is to provide both online and in-person
-              assistance to those seeking mental-health related help.
+              Thanks for visiting Black Help! We are a group of programmers
+              tasked to create a project to improve the well-being of Black folx
+              in the current fragile climate.
+              <br />
+              <br />
+              Our team is dedicated to destigmatizing mental health treatment
+              within the Black community. Our hope is to provide both online and
+              in-person assistance to those seeking mental-health related help.
             </p>
 
             <br />
