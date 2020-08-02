@@ -138,7 +138,7 @@ let ReactWidgetsForm = (props) => {
               type="submit"
               disabled={pristine || submitting}
             >
-              Submit
+              <a href="testresults.js">Submit</a>
             </button>
             <button
               className="ContactButton"
