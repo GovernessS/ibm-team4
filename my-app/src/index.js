@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-=======
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
@@ -83,7 +70,6 @@ ReactDOM.render(
     </BrowserRouter>
   </Provider>,
   document.getElementById("root")
->>>>>>> update-branch
 );
 
 // If you want your app to work offline and load faster, you can change
