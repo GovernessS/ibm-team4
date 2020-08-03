@@ -16,7 +16,9 @@ class TestResult extends Component {
 
   getDatabase = () => {
     axios
-      .get("https://jsonplaceholder.typicode.com/users")
+      .get(
+        "https://cors-anywhere.herokuapp.com/https://powerful-shelf-81198.herokuapp.com/Resources"
+      )
       .then((response) => {
         const data = response.data;
         this.setState({ therapists: data });
@@ -32,8 +34,10 @@ class TestResult extends Component {
 
     return therapists.map((therapists, index) => (
       <div key={index}>
-        <h1>{therapists.name}</h1>
-        <p>{therapists.email}</p>
+        <h1 className="us">
+          {therapists.last_name}, {therapists.first_name}
+        </h1>
+        <h3 className="contactBody">{therapists.specialty_1}</h3>
       </div>
     ));
   };
@@ -57,13 +61,6 @@ class TestResult extends Component {
         <div className="database">
           {this.displayDatabase(this.state.therapists)}
         </div>
-        {/* {TherapistData.map((detail, index) => {
-          return (
-            <div>
-              <h3>{detail.last_name}</h3>
-            </div>
-          );
-        })} */}
       </div>
     );
   }
