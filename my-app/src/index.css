@@ -342,3 +342,14 @@ header {
   background: pink;
   border-color: red;
 }
+
+
+
+.specialty, .citydoc, .statedoc, .telecom{
+  text-align: justify;
+  font-family: Geneva;
+  /*margin-top: 4rem;*/
+  margin-left: 20rem;
+  margin-right: 20rem;
+  font-size: 20px;
+}
