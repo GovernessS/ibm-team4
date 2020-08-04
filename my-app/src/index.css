@@ -113,6 +113,10 @@ header {
 .Textd {
   width: 1000px;
   border-radius: 15px;
+  border-radius: 15px;
+  border-width: thick;
+  border-bottom: 15px, #31b89c;
+  background-color: #31b89c;
   background-color: #31b89c;
   background: #7f7fd5; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -154,6 +158,8 @@ header {
 
   float: left;
 
+
+
   margin-top: 4px;
 
   margin-bottom: 4px;
@@ -164,9 +170,9 @@ header {
   border-width: 7px;
   border-color: #7f7fd5;
 
-  /*background: #7F7FD5;  /* fallback for old browsers */
-  /*background: -webkit-linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
-  /*  background: linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #7F7FD5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .eldocState {
@@ -175,6 +181,7 @@ header {
   border-radius: 15px;
 
   float: left;
+
 
   margin-top: 4px;
 
@@ -190,9 +197,9 @@ header {
   margin-left: 35rem;
   margin-right: 1000rem;
 
-  /*background: #7F7FD5;  /* fallback for old browsers */
-  /*background: -webkit-linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
-  /*  background: linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #7F7FD5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .consul {
@@ -209,7 +216,11 @@ header {
 
 .eldoc,
 .consul {
-  width: 47%;
+  width: 48%;
+}
+
+.eldocState, .consul{
+  width: 42%;
 }
 
 /*Contact*/
@@ -345,11 +356,18 @@ header {
 
 
 
-.specialty, .citydoc, .statedoc, .telecom{
+.specialty, .citydoc, .statedoc, .telecom, .prices, .organization{
   text-align: justify;
   font-family: Geneva;
   /*margin-top: 4rem;*/
   margin-left: 20rem;
   margin-right: 20rem;
   font-size: 20px;
+  background-color: #e6ffff;
+}
+
+
+
+.Dr{
+  font-color: #e6ffff;
 }
