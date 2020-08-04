@@ -28,7 +28,7 @@ let ReactWidgetsForm = (props) => {
             <Field name="name" type="text" component={renderField} />
           </div>
           <br />
-          <div>
+          <div className="dow">
             <label>What help would you like today?</label>
             <Field
               className="dow"
