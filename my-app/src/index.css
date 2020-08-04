@@ -176,7 +176,7 @@ header {
   padding: 0.4rem;
   border-width: 1.5px;
   border-style: solid;
-  border-bottom: red;
+
   border-width: 7px;
   border-color: #7f7fd5;
 
@@ -186,21 +186,20 @@ header {
 }
 
 .eldocState {
-  width: 250px;
-  align-self: center;
+  width: 300px;
+  /*align-self: px;
+  */
   border-radius: 15px;
-
+  left: 200px;
   float: left;
-
-
   margin-top: 4px;
-
   margin-bottom: 4px;
   padding: 0.4rem;
   border-width: 4px;
   border-style: solid;
-  border-bottom: red;
-  border-width: 7px;
+  margin-left: 20%;
+
+
   border-color: #7f7fd5;
   text-align: center;
   margin-top: 4rem;
@@ -213,7 +212,7 @@ header {
 }
 
 .consul {
-  width: 250px;
+  width: 500px;
   align-self: center;
   border-radius: 15px;
   border-width: thick;
@@ -226,11 +225,13 @@ header {
 
 .eldoc,
 .consul {
-  width: 48%;
+  width: 46%;
 }
 
-.eldocState, .consul{
-  width: 42%;
+.eldocState{
+ width: 12%;
+ align-items: center;
+
 }
 
 /*Contact*/
@@ -334,7 +335,7 @@ header {
   /* display: flex; */
   height: 44px;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
   text-decoration: none;
   color: black;
   padding: 12px;
