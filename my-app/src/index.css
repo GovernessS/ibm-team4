@@ -134,8 +134,18 @@ header {
 }
 .dow {
   width: 900px;
-  border-radius: 20px;
 
+  border-radius: 15px;
+  margin-bottom: 4px;
+  border-width: 4px;
+  border-style: solid;
+  border-bottom: red;
+  border-width: 7px;
+  border-color: #7f7fd5;
+  text-align: center;
+  background: #7F7FD5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5);
   background: #7f7fd5; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to left,
