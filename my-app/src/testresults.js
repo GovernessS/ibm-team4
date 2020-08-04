@@ -34,16 +34,19 @@ class TestResult extends Component {
 
     return therapists.map((therapists, index) => (
       <div key={index}>
+      <article className="myDoctor">
         <h1 className="us">
           {therapists.last_name}, {therapists.first_name}
         </h1>
 
+        <p className="organization">Organization: {therapists.organization}</p>
         <p className="specialty"> Specialty: {therapists.specialty_1}, {therapists.specialty_2}</p>
         <p className="citydoc">City:{therapists.city}</p>
         <p className="statedoc">State:{therapists.state}</p>
         <p className="telecom">Telecom:{therapists.telecom}</p>
+        <p className="prices">Price Range: ${therapists.min_cost} - ${therapists.max_cost}</p>
 
-
+</article>
       </div>
     ));
   };
