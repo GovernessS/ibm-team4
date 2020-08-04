@@ -38,7 +38,7 @@ class TestResult extends Component {
           {therapists.last_name}, {therapists.first_name}
         </h1>
         <h3 className="contactBody">{therapists.specialty_1}</h3>
-      </div>
+        </div>
     ));
   };
   render() {
