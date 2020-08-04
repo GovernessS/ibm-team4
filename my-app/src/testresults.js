@@ -37,8 +37,14 @@ class TestResult extends Component {
         <h1 className="us">
           {therapists.last_name}, {therapists.first_name}
         </h1>
-        <h3 className="contactBody">{therapists.specialty_1}</h3>
-        </div>
+
+        <p className="specialty"> Specialty: {therapists.specialty_1}, {therapists.specialty_2}</p>
+        <p className="citydoc">City:{therapists.city}</p>
+        <p className="statedoc">State:{therapists.state}</p>
+        <p className="telecom">Telecom:{therapists.telecom}</p>
+
+
+      </div>
     ));
   };
   render() {
