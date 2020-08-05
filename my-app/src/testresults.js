@@ -17,7 +17,7 @@ class TestResult extends Component {
   getDatabase = () => {
     axios
       .get(
-        "https://cors-anywhere.herokuapp.com/https://powerful-shelf-81198.herokuapp.com/Resources?specialty=Depression"
+        "https://powerful-shelf-81198.herokuapp.com/Resources?specialty=Depression"
       )
       .then((response) => {
         const data = response.data;
@@ -46,7 +46,7 @@ class TestResult extends Component {
           </p>
           <p className="citydoc"> City: {therapists.city}</p>
           <p className="statedoc">State: {therapists.state}</p>
-          <p className="telecom">Telecom: {therapists.telecom}</p>
+          <p className="telecom">Online*: {therapists.telecom}</p>
           <p className="prices">
             Price Range: ${therapists.min_cost} - ${therapists.max_cost}
           </p>
@@ -78,6 +78,8 @@ class TestResult extends Component {
         <div className="database">
           {this.displayDatabase(this.state.therapists)}
         </div>
+        <br />
+        <h3 className="organization">*Online: Y = Yes, M = Maybe</h3>
       </div>
     );
   }

@@ -41,7 +41,7 @@ let ReactWidgetsForm = (props) => {
           </div>
 
           <div className="eldoc">
-            <label>Health Professional preference</label>
+            <label>Health professional preference</label>
             <Field
               name="sex"
               component={SelectList}

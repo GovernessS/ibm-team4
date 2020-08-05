@@ -37,7 +37,6 @@ class About extends Component {
               within the Black community. Our hope is to provide both online and
               in-person assistance to those seeking mental-health related help.
             </p>
-
             <br />
           </div>
         </body>

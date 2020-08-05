@@ -108,7 +108,6 @@ header {
 
   width: 100%;
 }
-
 /*ReactWidgetsForm*/
 .Textd {
   width: 1000px;
@@ -179,7 +178,7 @@ header {
   padding: 0.4rem;
   border-width: 1.5px;
   border-style: solid;
-
+  margin-left: 20px;
   border-width: 7px;
   border-color: #7f7fd5;
 
@@ -197,7 +196,19 @@ header {
     #7f7fd5
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+img {
+  border-radius: 50%;
+  width: 144px;
+  height: 130px;
+  align-items: center;
+}
 
+.img2 {
+  border-radius: 50%;
+  width: 144px;
+  height: 130px;
+  margin-left: 300px;
+}
 .eldocState {
   width: 300px;
   /* align-self: 200px; */
@@ -214,7 +225,7 @@ header {
   border-color: #7f7fd5;
   text-align: center;
   margin-top: 4rem;
-  margin-left: 37.5rem;
+  margin-left: 39rem;
   margin-right: 1000rem;
 
   background: #7f7fd5; /* fallback for old browsers */
@@ -366,6 +377,7 @@ header {
   font-size: 14px;
   font-weight: 600;
   transition: border 0.125s ease, background 0.125s ease;
+  margin-left: 39px;
 
   &:hover {
     border: 2px white;
