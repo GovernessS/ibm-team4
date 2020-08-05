@@ -5,6 +5,7 @@ import Index from "./index";
 import About from "./about";
 import Contact from "./contact";
 import TestResult from "./testresults";
+import Resources from "./resources";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import axios from "axios";
 
@@ -18,6 +19,7 @@ function App() {
       <Route exact path="/about.js" component={About} />
       <Route exact path="/contact.js" component={Contact} />
       <Route exact path="/testresults.js" component={TestResult} />
+      <Route exact path="/resources.js" component={Resources} />
     </div>
   );
 }

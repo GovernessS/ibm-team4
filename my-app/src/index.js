@@ -28,6 +28,9 @@ class Index extends React.Component {
           <a className="Link" href="about.js">
             About
           </a>
+          <a className="Link" href="resources.js">
+            Resources
+          </a>
         </header>
         <div className="Text welcome">
           <div className="welcome-text">

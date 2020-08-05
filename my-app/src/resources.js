@@ -3,7 +3,7 @@ import "./index.css";
 import TherapistData from "./therapists.json";
 import axios from "axios";
 
-class TestResult extends Component {
+class Resources extends Component {
   state = {
     title: "",
     description: "",
@@ -17,7 +17,7 @@ class TestResult extends Component {
   getDatabase = () => {
     axios
       .get(
-        "https://cors-anywhere.herokuapp.com/https://powerful-shelf-81198.herokuapp.com/Resources?specialty=Depression"
+        "https://cors-anywhere.herokuapp.com/https://powerful-shelf-81198.herokuapp.com/Resources"
       )
       .then((response) => {
         const data = response.data;
@@ -44,9 +44,9 @@ class TestResult extends Component {
           <p className="specialty">
             Specialty: {therapists.specialty_1}, {therapists.specialty_2}
           </p>
-          <p className="citydoc"> City: {therapists.city}</p>
-          <p className="statedoc">State: {therapists.state}</p>
-          <p className="telecom">Telecom: {therapists.telecom}</p>
+          <p className="citydoc">City:{therapists.city}</p>
+          <p className="statedoc">State:{therapists.state}</p>
+          <p className="telecom">Telecom:{therapists.telecom}</p>
           <p className="prices">
             Price Range: ${therapists.min_cost} - ${therapists.max_cost}
           </p>
@@ -83,4 +83,4 @@ class TestResult extends Component {
   }
 }
 
-export default TestResult;
+export default Resources;

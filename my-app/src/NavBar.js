@@ -8,6 +8,9 @@ function NavBar() {
         <Link to="/index.js">Black Help</Link>
       </li>
       <li>
+        <Link to="resources.js">Resources</Link>
+      </li>
+      <li>
         <Link to="/about.js">About</Link>
       </li>
       <li>

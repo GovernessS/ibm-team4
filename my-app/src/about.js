@@ -18,6 +18,9 @@ class About extends Component {
           <a className="Link" href="about.js">
             About
           </a>
+          <a className="Link" href="resources.js">
+            Resources
+          </a>
         </header>
         <body>
           <br />

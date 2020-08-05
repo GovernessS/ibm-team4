@@ -134,20 +134,20 @@ let ReactWidgetsForm = (props) => {
         <div>
           <center>
             <button
-              className="ContactButton"
+              className="ContactButton submitt"
               type="submit"
               disabled={pristine || submitting}
             >
               <a href="testresults.js">Submit</a>
             </button>
-            <button
+            {/* <button
               className="ContactButton"
               type="button"
               disabled={pristine || submitting}
               onClick={reset}
             >
               Reset
-            </button>
+            </button> */}
           </center>
         </div>
       </form>
